@@ -1,0 +1,49 @@
+target/
+*.class
+*.log
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse m2e generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# STS4 (Eclipse specific)
+.metadata/
+.settings/
+.classpath
+.factorypath
+.springBeans
+.sts4-cache/
+
+# Docker
+Dockerfile~
+*.dockerignore
+
+# Angular 
+node_modules/
+dist/
+*.js
+*.js.map
+
+# Intellij IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/
+
+# VS Code
+.vscode/
